@@ -1,4 +1,5 @@
 .App {
+  display: flex;
   text-align: center;
   background-color: #ece6e0;
   background-image: url("media/Close.jpg");

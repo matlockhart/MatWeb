@@ -1,4 +1,29 @@
 .Nav {
+    width: 100%;
+    height: 3em;
     background-color: #bbc2ca;
-  }
+    border-bottom: 1px solid #9BB1CB;
+}
+
+.Navbar {
+  display: flex;
+}
   
+.nav-link{
+  font-family: 'Roboto', sans-serif;
+  color: #2699FB !important;
+  padding: 1em;
+}
+
+.title{
+  height: 100%;
+  width: 25%;
+  justify-content: center;
+}
+
+.links {
+  justify-self: right;
+  height: 100%;
+  width: 25%;
+  padding: 2px;
+}

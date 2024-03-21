@@ -1,19 +1,23 @@
-import './TopNavigation.css';
+import "./TopNavigation.css";
 
-import { Nav, Navbar, Container } from 'react-bootstrap'
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 function TopNavigation() {
     return (
-        <Navbar bg="primary" data-bs-theme="dark" className='Nav'>
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+        <Navbar fixed="top" data-bs-theme="dark" className="Nav">
+            <Container className="Navbar">
+                <Container className="title">
+                    <Navbar.Text>Mat Lockhart - Full Stack Developer</Navbar.Text>
+                </Container>
+                <Container className="links">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    </Nav>
+                </Container>
+            </Container>
+        </Navbar>
     );
 }
 
