@@ -1,10 +1,14 @@
 .App {
-  display: flex;
-  text-align: center;
-  background-color: #ece6e0;
-  background-image: url("media/Close.jpg");
-  height: 100vh;
-  background-position: 0% 30%;
-  background-repeat: no-repeat;
-  background-size: 45%;
+    display: flex;
+    text-align: center;
+    background-color: #ece6e0;
+    background-image: url("media/Close.jpg");
+    height: 100vh;
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.std-margin {
+    margin: 1em;
 }

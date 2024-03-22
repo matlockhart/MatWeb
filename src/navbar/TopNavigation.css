@@ -2,28 +2,38 @@
     width: 100%;
     height: 3em;
     background-color: #bbc2ca;
-    border-bottom: 1px solid #9BB1CB;
+    border-bottom: 1px solid #9bb1cb;
 }
 
 .Navbar {
-  display: flex;
-}
-  
-.nav-link{
-  font-family: 'Roboto', sans-serif;
-  color: #2699FB !important;
-  padding: 1em;
+    width: 100%;
 }
 
-.title{
-  height: 100%;
-  width: 25%;
-  justify-content: center;
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    color: #2a557b !important;
+    padding: 1em;
+}
+
+.title {
+    height: 100%;
+    width: 25%;
+    justify-content: center;
 }
 
 .links {
-  justify-self: right;
-  height: 100%;
-  width: 25%;
-  padding: 2px;
+    justify-self: right;
+    width: 25%;
+    padding: 2px;
+}
+
+.Nav .title .navbar-text {
+    font-size: larger; /* Adjust size as needed */
+    color: #000000; /* This is pure black, adjust the color as you prefer */
+}
+
+.Nav .links .nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly; /* This will distribute space evenly around items */
 }
